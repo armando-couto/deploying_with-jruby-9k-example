@@ -5,6 +5,6 @@ gem 'sinatra'
 
 # START:warbler
 group :development do
-  gem 'warbler', '2.0.1'
+  gem 'warbler', '2.0.5'
 end
 # END:warbler

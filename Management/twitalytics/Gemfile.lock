@@ -45,27 +45,27 @@ GEM
       tzinfo (~> 1.1)
     arel (6.0.4)
     builder (3.2.4)
-    coffee-rails (4.1.1)
+    coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
-      railties (>= 4.0.0, < 5.1.x)
+      railties (>= 4.0.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.10.0)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     erubis (2.7.0)
-    execjs (2.6.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    coffee-script-source (1.12.2)
+    concurrent-ruby (1.0.0)
+    execjs (2.8.1)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jbuilder (2.4.0)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
-    jdbc-postgres (9.4.1206)
+    jdbc-postgres (9.4.1204)
     jdbc-sqlite3 (3.8.11.2)
-    jmx4r (0.1.4)
     jquery-rails (4.1.0)
       rails-dom-testing (~> 1.0)
       railties (>= 4.2.0)
@@ -78,6 +78,10 @@ GEM
     mail (2.7.1)
       mini_mime (>= 0.1.1)
     mini_mime (1.1.2)
+    mime-types (2.99)
+    mini_portile2 (2.0.0)
+    minitest (5.8.4)
+    multi_json (1.11.2)
     minitest (5.16.1)
     multi_json (1.11.2)
     nokogiri (1.13.6)
@@ -164,9 +168,8 @@ PLATFORMS
 DEPENDENCIES
   activerecord-jdbcpostgresql-adapter
   activerecord-jdbcsqlite3-adapter
-  coffee-rails (~> 4.1.0)
+  coffee-rails (~> 4.2.0)
   jbuilder (~> 2.0)
-  jmx4r
   jquery-rails
   puma
   rails (= 4.2.11.3)

@@ -119,7 +119,7 @@ GEM
     nokogiri (1.14.2)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    pg (1.4.6)
+    pg (1.5.0)
     psych (5.1.0)
       stringio
     racc (1.6.2)

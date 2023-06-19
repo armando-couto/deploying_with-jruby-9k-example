@@ -37,7 +37,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # START:torquebox
-gem 'torquebox', '4.0.0.beta3-java'
+gem 'torquebox', '4.0.0.beta3'
 # END:torquebox
 
 # START:tzinfo
